@@ -1,0 +1,9 @@
+# Additional robots.txt in .well-known directory
+# Some AI crawlers check this location
+# Redirects to main robots.txt
+
+User-agent: *
+Allow: /
+
+Sitemap: https://aravindh.org/sitemap.xml
+

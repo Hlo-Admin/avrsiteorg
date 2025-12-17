@@ -131,20 +131,37 @@ const Podcasts = () => {
     <div className="min-h-screen flex flex-col bg-background">
       <SEO 
         title="All Podcasts by Aravindh Ravichandran | Startup Stories, Sports29, AVR x Amrish"
-        description="Explore three acclaimed podcast series by AVR: Startup Stories (founder journeys), Sports29 (athlete stories), and AVR x Amrish (entrepreneurship insights)."
-        keywords="Aravindh Ravichandran podcasts, Startup Stories, Sports29, AVR x Amrish, entrepreneur podcast, startup podcast, business podcast"
+        description="Explore three acclaimed podcast series by AVR: Startup Stories (founder journeys), Sports29 (athlete stories), and AVR x Amrish (entrepreneurship insights). Listen on Spotify, Amazon Music, and major podcast platforms. Discover transformative stories from entrepreneurs, athletes, and innovators."
+        keywords="Aravindh Ravichandran podcasts, Startup Stories, Sports29, AVR x Amrish, entrepreneur podcast, startup podcast, business podcast, podcast series, startup stories podcast, sports podcast, entrepreneurship podcast, business podcast USA, founder podcast, athlete podcast, innovation podcast, startup journey podcast, business insights podcast"
         canonicalUrl="https://aravindh.org/podcasts"
-        structuredData={{
-          "@context": "https://schema.org",
-          "@type": "PodcastSeries",
-          "name": "Podcasts by Aravindh Ravichandran",
-          "description": "Three acclaimed podcast series covering startup journeys, athlete stories, and entrepreneurship insights",
-          "url": "https://aravindh.org/podcasts",
-          "author": {
-            "@type": "Person",
-            "name": "Aravindh Ravichandran"
-          }
+        ogImage="https://aravindh.org/assets/podcast-thumb-1.png"
+        geoLocation={{
+          region: "US",
+          placename: "United States"
         }}
+        breadcrumbs={[
+          { name: "Home", url: "https://aravindh.org" },
+          { name: "Podcasts", url: "https://aravindh.org/podcasts" }
+        ]}
+        structuredData={[
+          {
+            "@context": "https://schema.org",
+            "@type": "PodcastSeries",
+            "name": "Podcasts by Aravindh Ravichandran",
+            "description": "Three acclaimed podcast series covering startup journeys, athlete stories, and entrepreneurship insights",
+            "url": "https://aravindh.org/podcasts",
+            "author": {
+              "@type": "Person",
+              "name": "Aravindh Ravichandran",
+              "url": "https://aravindh.org"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Aravindh Initiative",
+              "url": "https://aravindh.org"
+            }
+          }
+        ]}
       />
       <Navigation />
       

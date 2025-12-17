@@ -42,32 +42,60 @@ const About = () => {
     <div className="min-h-screen flex flex-col bg-background">
       <SEO 
         title="About Aravindh Ravichandran: Entrepreneur, Advisor & Podcast Host | AVR"
-        description="Meet Aravindh Ravichandran (AVR): Serial entrepreneur, startup advisor, SaaS founder behind Rook & Realm by Rook. Host of Startup Stories, Sports29 podcasts."
-        keywords="Aravindh Ravichandran, AVR, entrepreneur, startup advisor, SaaS founder, podcast host, Rook, Realm by Rook"
+        description="Meet Aravindh Ravichandran (AVR): Serial entrepreneur, startup advisor, SaaS founder behind Rook & Realm by Rook. Host of Startup Stories, Sports29 podcasts. Multidisciplinary Indian entrepreneur, advisor, writer, and podcast creator with deep passion for technology, sports, and social impact."
+        keywords="Aravindh Ravichandran, AVR, entrepreneur, startup advisor, SaaS founder, podcast host, Rook, Realm by Rook, Indian entrepreneur, business advisor, tech entrepreneur, startup mentor, podcast creator, business leader, entrepreneur profile, startup consultant, SaaS entrepreneur, business advisor USA, entrepreneur biography, startup founder story"
         canonicalUrl="https://aravindh.org/about"
+        ogImage="https://aravindh.org/assets/avr.jpg"
         type="profile"
-        structuredData={{
-          "@context": "https://schema.org",
-          "@type": "Person",
-          "name": "Aravindh Ravichandran",
-          "alternateName": "AVR",
-          "description": "Serial Entrepreneur, Startup Advisor, SaaS Founder, Podcast Host",
-          "url": "https://aravindh.org",
-          "image": "https://aravindh.org/assets/AVR_speaking.png",
-          "sameAs": [
-            "https://instagram.com/arav.vr",
-            "https://x.com/AravAVR",
-            "https://youtube.com/@ardh",
-            "https://linkedin.com/in/avra",
-            "https://threads.com/arav.vr",
-            "https://bsky.app/profile/ardh.bsky.social"
-          ],
-          "jobTitle": "Founder & CEO",
-          "worksFor": {
-            "@type": "Organization",
-            "name": "Realm by Rook"
-          }
+        geoLocation={{
+          region: "US",
+          placename: "United States"
         }}
+        breadcrumbs={[
+          { name: "Home", url: "https://aravindh.org" },
+          { name: "About", url: "https://aravindh.org/about" }
+        ]}
+        structuredData={[
+          {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Aravindh Ravichandran",
+            "alternateName": "AVR",
+            "description": "Serial Entrepreneur, Startup Advisor, SaaS Founder, Podcast Host",
+            "url": "https://aravindh.org",
+            "image": "https://aravindh.org/assets/avr.jpg",
+            "address": {
+              "@type": "PostalAddress",
+              "addressCountry": "US"
+            },
+            "sameAs": [
+              "https://instagram.com/arav.vr",
+              "https://x.com/AravAVR",
+              "https://youtube.com/@ardh",
+              "https://linkedin.com/in/avra",
+              "https://threads.com/arav.vr",
+              "https://bsky.app/profile/ardh.bsky.social",
+              "https://realmrook.com"
+            ],
+            "jobTitle": "Founder & CEO",
+            "worksFor": {
+              "@type": "Organization",
+              "name": "Realm by Rook",
+              "url": "https://realmrook.com"
+            },
+            "knowsAbout": [
+              "Entrepreneurship",
+              "Startup Advisory",
+              "SaaS Development",
+              "Podcast Production",
+              "Business Strategy",
+              "Technology",
+              "Sports",
+              "Social Impact"
+            ],
+            "award": "Excellence in Finance Startups Award at FiNext Conference 2024"
+          }
+        ]}
       />
       <Navigation />
       

@@ -1,32 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <!-- Primary Pages -->
   <url>
     <loc>https://aravindh.org/</loc>
-    <lastmod>2025-11-22</lastmod>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://aravindh.org/assets/AVR_3.png</image:loc>
+      <image:title>Aravindh Ravichandran - Startup Advisor & SaaS Founder</image:title>
+    </image:image>
   </url>
   
   <!-- About & Profile -->
   <url>
     <loc>https://aravindh.org/about</loc>
-    <lastmod>2025-11-22</lastmod>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://aravindh.org/host</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   
   <!-- Content & Media -->
   <url>
     <loc>https://aravindh.org/podcasts</loc>
-    <lastmod>2025-11-22</lastmod>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
     <loc>https://aravindh.org/happenings</loc>
-    <lastmod>2025-11-22</lastmod>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -34,7 +45,7 @@
   <!-- Business & Ventures -->
   <url>
     <loc>https://aravindh.org/venture</loc>
-    <lastmod>2025-11-22</lastmod>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -42,14 +53,14 @@
   <!-- Services -->
   <url>
     <loc>https://aravindh.org/hire-me-for-events</loc>
-    <lastmod>2025-11-22</lastmod>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
     <loc>https://aravindh.org/sponsorship</loc>
-    <lastmod>2025-11-22</lastmod>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -57,21 +68,21 @@
   <!-- Personal Projects -->
   <url>
     <loc>https://aravindh.org/archery</loc>
-    <lastmod>2025-11-22</lastmod>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
     <loc>https://aravindh.org/books</loc>
-    <lastmod>2025-11-22</lastmod>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
     <loc>https://aravindh.org/chronicles-of-echelon</loc>
-    <lastmod>2025-11-22</lastmod>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -79,7 +90,7 @@
   <!-- Contact & Support -->
   <url>
     <loc>https://aravindh.org/contact</loc>
-    <lastmod>2025-11-22</lastmod>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -87,7 +98,7 @@
   <!-- Legal & Compliance -->
   <url>
     <loc>https://aravindh.org/legal</loc>
-    <lastmod>2025-11-22</lastmod>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -95,7 +106,7 @@
   <!-- Secondary/Index Page -->
   <url>
     <loc>https://aravindh.org/index</loc>
-    <lastmod>2025-11-22</lastmod>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

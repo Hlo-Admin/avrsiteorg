@@ -14,10 +14,28 @@ const Happenings = () => {
     <div className="min-h-screen flex flex-col bg-background">
       <SEO 
         title="Happenings: News, Podcasts, Events & Impact | Aravindh Ravichandran"
-        description="Latest podcast releases, media features, speaking events, social impact projects, and Rook product updates by Aravindh Ravichandran (AVR)."
-        keywords="Aravindh Ravichandran news, AVR podcasts, startup events, social impact, Rook updates, Realm by Rook launches"
+        description="Latest podcast releases, media features, speaking events, social impact projects, and Rook product updates by Aravindh Ravichandran (AVR). Stay updated with news, awards, podcast episodes, speaking engagements, and community initiatives."
+        keywords="Aravindh Ravichandran news, AVR podcasts, startup events, social impact, Rook updates, Realm by Rook launches, AVR news, podcast releases, startup events, business news, entrepreneur updates, SaaS news, podcast episodes, speaking events, awards, media features, business updates USA"
         canonicalUrl="https://aravindh.org/happenings"
+        ogImage="https://aravindh.org/assets/finextaward.jpg"
         type="website"
+        geoLocation={{
+          region: "US",
+          placename: "United States"
+        }}
+        breadcrumbs={[
+          { name: "Home", url: "https://aravindh.org" },
+          { name: "Happenings", url: "https://aravindh.org/happenings" }
+        ]}
+        structuredData={[
+          {
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "name": "Happenings",
+            "description": "Latest news, podcasts, events, and impact updates",
+            "url": "https://aravindh.org/happenings"
+          }
+        ]}
       />
       <Navigation />
       

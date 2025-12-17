@@ -10,8 +10,36 @@ const Books = () => {
     <div className="min-h-screen flex flex-col bg-[#fdf4ee]">
       <SEO 
         title="Love He Never Told | Debut Novel by Aravindh Ravichandran"
-        description="Request an advance review copy of 'Love He Never Told' - a debut novel exploring untold emotions and journeys. Limited pre-release slots available."
-        keywords="Love He Never Told, Aravindh Ravichandran book, debut novel, advance review copy"
+        description="Request an advance review copy of 'Love He Never Told' - a debut novel by Aravindh Ravichandran exploring untold emotions and journeys. Limited pre-release slots available for handpicked readers. Discover AVR's literary debut and upcoming publication."
+        keywords="Love He Never Told, Aravindh Ravichandran book, debut novel, advance review copy, AVR book, new novel, upcoming book, debut author, literary fiction, book review copy, novel pre-release, author debut, new book release, debut novel USA"
+        canonicalUrl="https://aravindh.org/books"
+        ogImage="https://aravindh.org/assets/book_avr.jpg"
+        geoLocation={{
+          region: "US",
+          placename: "United States"
+        }}
+        breadcrumbs={[
+          { name: "Home", url: "https://aravindh.org" },
+          { name: "Books", url: "https://aravindh.org/books" }
+        ]}
+        structuredData={[
+          {
+            "@context": "https://schema.org",
+            "@type": "Book",
+            "name": "Love He Never Told",
+            "author": {
+              "@type": "Person",
+              "name": "Aravindh Ravichandran",
+              "url": "https://aravindh.org"
+            },
+            "bookFormat": "https://schema.org/Hardcover",
+            "description": "A debut novel exploring untold emotions and journeys",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Aravindh Initiative"
+            }
+          }
+        ]}
       />
       <Navigation />
       

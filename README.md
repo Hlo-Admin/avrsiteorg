@@ -1,71 +1,134 @@
 # Sports29 by AVR
 
-## Project info
+## Project Overview
 
-**URL**: https://sports29.lovable.app
+Sports29 by AVR is an enterprise-grade podcast platform showcasing athletic excellence, archery content, and sports-related media. This project is part of the Aravindh Initiative, delivering high-quality sports content and engaging experiences for audiences worldwide.
 
-## How can I edit this code?
+## Project Information
 
-There are several ways of editing your application.
+**Project Name**: Sports29 by AVR  
+**Organization**: Aravindh Initiative  
+**Developed By**: Realm by Rook (realmrook.com)  
+**Project Type**: Podcast Platform & Sports Media Website
 
-**Use Realm by Rook**
+## Technology Stack
 
-Simply visit the [Realm by Rook Project](https://realmrook.com) and start prompting.
+This enterprise-grade application is built with modern, scalable technologies:
 
-Changes made via Realm by Rook will be committed automatically to this repo.
+- **Vite** - Next-generation frontend build tool for fast development and optimized production builds
+- **TypeScript** - Type-safe JavaScript for enhanced code quality and maintainability
+- **React 18** - Modern UI library with latest features and performance optimizations
+- **shadcn-ui** - High-quality, accessible component library
+- **Tailwind CSS** - Utility-first CSS framework for rapid UI development
+- **React Router** - Declarative routing for single-page applications
 
-**Use your preferred IDE**
+## Getting Started
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Prerequisites
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Node.js (v18 or higher recommended)
+- npm or yarn package manager
+- Git for version control
 
-Follow these steps:
+### Installation
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Step 1: Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Step 2: Navigate to the project directory
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Step 3: Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The development server will start on `http://localhost:8080` with hot module replacement enabled.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Available Scripts
 
-**Use GitHub Codespaces**
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run build:dev` - Build in development mode
+- `npm run preview` - Preview production build locally
+- `npm run lint` - Run ESLint for code quality checks
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Development Workflow
 
-## What technologies are used for this project?
+### Using Your Preferred IDE
 
-This project is built with:
+Clone the repository and work locally with your preferred development environment. All changes can be committed and pushed to the repository.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Using Realm by Rook
 
-## How can I deploy this project?
+For collaborative development, visit [Realm by Rook](https://realmrook.com) to access the project workspace. Changes made through Realm by Rook are automatically committed to the repository.
 
-Deploy using your preferred hosting platform or through Realm by Rook.
+### GitHub Workflow
 
-## Can I connect a custom domain to my project?
+- **Direct Editing**: Edit files directly in GitHub using the web interface
+- **GitHub Codespaces**: Launch a cloud-based development environment from the repository
 
-Yes, you can!
+## Project Structure
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+```
+├── src/
+│   ├── components/     # Reusable React components
+│   ├── pages/         # Page components and routes
+│   ├── assets/        # Static assets (images, icons)
+│   ├── hooks/         # Custom React hooks
+│   ├── lib/           # Utility functions and helpers
+│   └── main.tsx       # Application entry point
+├── public/            # Public static files
+└── package.json       # Project dependencies and scripts
+```
+
+## Deployment
+
+This project can be deployed to any modern hosting platform that supports Node.js applications:
+
+- **Vercel** - Recommended for optimal performance
+- **Netlify** - Great for static site hosting
+- **AWS Amplify** - Enterprise cloud hosting
+- **Custom Server** - Deploy to your own infrastructure
+
+### Production Build
+
+```sh
+npm run build
+```
+
+The production build will be generated in the `dist/` directory, ready for deployment.
+
+## Custom Domain Configuration
+
+To connect a custom domain:
+
+1. Configure DNS settings with your domain provider
+2. Update environment variables if needed
+3. Configure SSL certificates through your hosting platform
+4. Update canonical URLs in SEO components if domain changes
+
+## Contributing
+
+This project is maintained by Realm by Rook for the Aravindh Initiative. For contributions or inquiries, please contact the project maintainers.
+
+## License & Copyright
+
+© 2025 Aravindh Initiative. All rights reserved.
+
+This project and its contents are proprietary to the Aravindh Initiative. Unauthorized reproduction, distribution, or modification is prohibited.
+
+## Support & Contact
+
+For technical support, feature requests, or general inquiries:
+
+- **Email**: avr@aravindh.org
+- **Organization**: Aravindh Initiative
+- **Developer**: Realm by Rook (realmrook.com)
+
+---
+
+**Built with excellence by Realm by Rook for Aravindh Initiative**

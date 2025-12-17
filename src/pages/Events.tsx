@@ -29,8 +29,56 @@ const Events = () => {
     <div className="min-h-screen flex flex-col bg-[#fdf4ee]">
       <SEO 
         title="Hire Aravindh Ravichandran for Your Event | Keynotes, Workshops & Speaking"
-        description="Book Aravindh Ravichandran for keynote speaking, startup panels, workshops, and fireside chats. Available globally for online, hybrid, and in-person events."
-        keywords="Aravindh Ravichandran events, keynote speaker, startup mentor speaking, SaaS workshops, event booking"
+        description="Book Aravindh Ravichandran for keynote speaking, startup panels, workshops, and fireside chats. Available globally for online, hybrid, and in-person events. Topics include startup growth, SaaS scaling, content virality, team building, and entrepreneurial mindset."
+        keywords="Aravindh Ravichandran events, keynote speaker, startup mentor speaking, SaaS workshops, event booking, hire speaker, business keynote speaker, startup conference speaker, entrepreneur speaker, SaaS expert speaker, business workshop facilitator, fireside chat host, panel moderator, startup event speaker, business conference speaker USA, tech event speaker, entrepreneurship speaker"
+        canonicalUrl="https://aravindh.org/hire-me-for-events"
+        ogImage="https://aravindh.org/assets/book_avr.jpg"
+        geoLocation={{
+          region: "US",
+          placename: "United States"
+        }}
+        breadcrumbs={[
+          { name: "Home", url: "https://aravindh.org" },
+          { name: "Hire Me for Events", url: "https://aravindh.org/hire-me-for-events" }
+        ]}
+        faq={[
+          {
+            question: "What types of events does Aravindh Ravichandran speak at?",
+            answer: "AVR speaks at startup conferences, business workshops, tech events, fireside chats, panel discussions, and custom corporate events. Available for online, hybrid, and in-person formats globally."
+          },
+          {
+            question: "What topics does AVR cover in speaking engagements?",
+            answer: "Popular topics include startup growth and scaling strategies, SaaS product development, content virality and marketing, building high-performance teams, podcast-style storytelling, and entrepreneurial mindset and resilience."
+          },
+          {
+            question: "How do I book Aravindh Ravichandran for an event?",
+            answer: "Fill out the booking request form on this page with your event details, or email directly to events@aravindh.org. Include event name, organization, preferred date, topic, and contact information."
+          },
+          {
+            question: "Is AVR available for international events?",
+            answer: "Yes, AVR is available for events globally, including online, hybrid, and in-person formats. Early booking is recommended due to limited availability."
+          }
+        ]}
+        structuredData={[
+          {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Event Speaking Services",
+            "provider": {
+              "@type": "Person",
+              "name": "Aravindh Ravichandran",
+              "url": "https://aravindh.org"
+            },
+            "areaServed": {
+              "@type": "Place",
+              "name": "Worldwide"
+            },
+            "offers": {
+              "@type": "Offer",
+              "description": "Keynote speaking, workshops, panel moderation, and fireside chats"
+            }
+          }
+        ]}
       />
       <Navigation />
       

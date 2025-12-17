@@ -81,10 +81,46 @@ const Contact = () => {
     <div className="min-h-screen flex flex-col">
       <SEO 
         title="Contact Aravindh Ravichandran | Startup Advisory & Business Inquiries"
-        description="Get in touch with Aravindh Ravichandran (AVR) for startup advisory, podcast collaborations, speaking engagements, and Rook/Realm by Rook inquiries."
-        keywords="contact Aravindh Ravichandran, AVR contact, startup advisory, podcast collaboration, speaking engagements, business inquiries"
+        description="Get in touch with Aravindh Ravichandran (AVR) for startup advisory, podcast collaborations, speaking engagements, and Rook/Realm by Rook inquiries. Reach out via email or contact form for business opportunities, media requests, and partnerships."
+        keywords="contact Aravindh Ravichandran, AVR contact, startup advisory, podcast collaboration, speaking engagements, business inquiries, contact form, business email, startup consultation, entrepreneur contact, business inquiries USA, media inquiries, partnership opportunities"
         canonicalUrl="https://aravindh.org/contact"
-        type="website"
+        ogImage="https://aravindh.org/assets/AVR_3.png"
+        geoLocation={{
+          region: "US",
+          placename: "United States"
+        }}
+        breadcrumbs={[
+          { name: "Home", url: "https://aravindh.org" },
+          { name: "Contact", url: "https://aravindh.org/contact" }
+        ]}
+        faq={[
+          {
+            question: "How can I contact Aravindh Ravichandran?",
+            answer: "You can contact Aravindh Ravichandran via email at avr@aravindh.org or use the contact form on this page for startup advisory, podcast collaborations, speaking engagements, and business inquiries."
+          },
+          {
+            question: "What types of inquiries does AVR accept?",
+            answer: "AVR accepts inquiries for startup advisory services, podcast collaborations, speaking engagements, business partnerships, media requests, and general business inquiries related to Rook and Realm by Rook."
+          },
+          {
+            question: "What is the response time for contact inquiries?",
+            answer: "Response times vary, but AVR typically responds to business inquiries within 2-3 business days. For urgent matters, please indicate this in your message."
+          }
+        ]}
+        structuredData={[
+          {
+            "@context": "https://schema.org",
+            "@type": "ContactPage",
+            "name": "Contact Aravindh Ravichandran",
+            "description": "Contact page for startup advisory, podcast collaborations, and business inquiries",
+            "url": "https://aravindh.org/contact",
+            "mainEntity": {
+              "@type": "Person",
+              "name": "Aravindh Ravichandran",
+              "email": "avr@aravindh.org"
+            }
+          }
+        ]}
       />
       <Navigation />
       

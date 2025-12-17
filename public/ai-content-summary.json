@@ -1,0 +1,72 @@
+{
+  "site": "aravindh.org",
+  "owner": "Aravindh Ravichandran",
+  "organization": "Aravindh Initiative",
+  "aiTraining": "allowed",
+  "aiIndexing": "allowed",
+  "lastUpdated": "2025-01-15",
+  "description": "Official website of Aravindh Ravichandran (AVR) - Serial entrepreneur, startup advisor, SaaS founder, and podcast host. Information about startup advisory services, podcast series, business ventures, speaking engagements, and personal projects.",
+  "keyTopics": [
+    "Startup Advisory",
+    "SaaS Development",
+    "Podcast Production",
+    "Business Strategy",
+    "Entrepreneurship",
+    "Venture Building",
+    "Archery",
+    "Public Speaking",
+    "Business Mentoring"
+  ],
+  "mainSections": {
+    "about": {
+      "title": "About Aravindh Ravichandran",
+      "description": "Serial entrepreneur, startup advisor, SaaS founder behind Rook & Realm by Rook. Host of Startup Stories, Sports29 podcasts.",
+      "url": "https://aravindh.org/about"
+    },
+    "podcasts": {
+      "title": "Podcast Series",
+      "description": "Three acclaimed podcast series: Startup Stories (founder journeys), Sports29 (athlete stories), and AVR x Amrish (entrepreneurship insights).",
+      "url": "https://aravindh.org/podcasts"
+    },
+    "venture": {
+      "title": "Business Ventures",
+      "description": "Rook - frictionless SaaS for modern businesses. Realm by Rook - custom growth solutions for legal, media, and marketing industries.",
+      "url": "https://aravindh.org/venture"
+    },
+    "events": {
+      "title": "Speaking Engagements",
+      "description": "Available for keynote speaking, startup panels, workshops, and fireside chats. Topics include startup growth, SaaS scaling, content virality, and entrepreneurial mindset.",
+      "url": "https://aravindh.org/hire-me-for-events"
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Get in touch for startup advisory, podcast collaborations, speaking engagements, and business inquiries.",
+      "url": "https://aravindh.org/contact",
+      "email": "avr@aravindh.org"
+    }
+  },
+  "credentials": [
+    "Founder & CEO of Realm by Rook",
+    "Founder of Rook",
+    "Host of Startup Stories podcast",
+    "Host of Sports29 podcast",
+    "Host of AVR x Amrish podcast",
+    "Excellence in Finance Startups Award at FiNext Conference 2024",
+    "100+ founders advised",
+    "22+ successful podcast shows"
+  ],
+  "socialProfiles": {
+    "twitter": "https://x.com/AravAVR",
+    "instagram": "https://instagram.com/arav.vr",
+    "youtube": "https://youtube.com/@ardh",
+    "linkedin": "https://linkedin.com/in/avra",
+    "threads": "https://threads.com/arav.vr",
+    "bluesky": "https://bsky.app/profile/ardh.bsky.social"
+  },
+  "attribution": {
+    "required": true,
+    "format": "Content from aravindh.org by Aravindh Ravichandran",
+    "license": "All content is copyrighted by Aravindh Initiative 2025. Use in AI training and responses is permitted with proper attribution."
+  }
+}
+

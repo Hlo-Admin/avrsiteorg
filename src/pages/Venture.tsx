@@ -12,24 +12,48 @@ const Venture = () => {
     <div className="min-h-screen flex flex-col bg-background">
       <SEO
         title="My Ventures: Rook & Realm by Rook | Business Automation SaaS | AVR"
-        description="Explore Rook's frictionless SaaS for modern businesses and Realm by Rook's custom growth solutions for legal, media, and marketing industries. Built by Aravindh Ravichandran."
-        keywords="Rook, Realm by Rook, SaaS, business automation, no-code platform, startup tools, Aravindh Ravichandran, AVR"
+        description="Explore Rook's frictionless SaaS for modern businesses and Realm by Rook's custom growth solutions for legal, media, and marketing industries. Built by Aravindh Ravichandran. Discover innovative business automation tools, no-code platforms, and startup solutions designed to empower creators, freelancers, and founders."
+        keywords="Rook, Realm by Rook, SaaS, business automation, no-code platform, startup tools, Aravindh Ravichandran, AVR, business software, automation tools, SaaS platform, startup software, business tools, no-code tools, business automation software USA, startup automation, creator tools, freelancer tools, business productivity software"
         canonicalUrl="https://aravindh.org/venture"
-        structuredData={{
-          "@context": "https://schema.org",
-          "@type": "SoftwareApplication",
-          name: "Rook",
-          applicationCategory: "BusinessApplication",
-          operatingSystem: "Web",
-          offers: {
-            "@type": "Offer",
-            url: "https://rookhq.com",
-          },
-          creator: {
-            "@type": "Person",
-            name: "Aravindh Ravichandran",
-          },
+        ogImage="https://aravindh.org/assets/rook-logo.png"
+        geoLocation={{
+          region: "US",
+          placename: "United States"
         }}
+        breadcrumbs={[
+          { name: "Home", url: "https://aravindh.org" },
+          { name: "Venture", url: "https://aravindh.org/venture" }
+        ]}
+        structuredData={[
+          {
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            name: "Rook",
+            applicationCategory: "BusinessApplication",
+            operatingSystem: "Web",
+            offers: {
+              "@type": "Offer",
+              url: "https://rookhq.com"
+            },
+            creator: {
+              "@type": "Person",
+              name: "Aravindh Ravichandran",
+              url: "https://aravindh.org"
+            }
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            name: "Realm by Rook",
+            url: "https://realmrook.com",
+            founder: {
+              "@type": "Person",
+              name: "Aravindh Ravichandran",
+              url: "https://aravindh.org"
+            },
+            description: "Custom growth solutions for legal, media, and marketing industries"
+          }
+        ]}
       />
       <Navigation />
 

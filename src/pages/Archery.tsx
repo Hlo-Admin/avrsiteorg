@@ -17,8 +17,31 @@ const Archery = () => {
     <div className="min-h-screen flex flex-col bg-[#fdf4ee]">
       <SEO 
         title="Archery Journey | Aravindh Ravichandran - Competitive Recurve Archer"
-        description="Follow my competitive recurve archery journey. Training, competitions, technique, and mindset on YouTube and Instagram."
-        keywords="Aravindh Ravichandran archery, recurve archery, competitive archer, archery training"
+        description="Follow my competitive recurve archery journey. Training, competitions, technique, and mindset on YouTube and Instagram. Discover archery training tips, competition insights, and the mental game of competitive archery from a dedicated recurve archer."
+        keywords="Aravindh Ravichandran archery, recurve archery, competitive archer, archery training, archery journey, recurve bow, archery technique, competitive archery, archery competitions, archery training tips, archery mindset, archery YouTube, archery Instagram, archery athlete, archery USA, competitive archery training"
+        canonicalUrl="https://aravindh.org/archery"
+        ogImage="https://aravindh.org/assets/archery/1.png"
+        geoLocation={{
+          region: "US",
+          placename: "United States"
+        }}
+        breadcrumbs={[
+          { name: "Home", url: "https://aravindh.org" },
+          { name: "Archery", url: "https://aravindh.org/archery" }
+        ]}
+        structuredData={[
+          {
+            "@context": "https://schema.org",
+            "@type": "SportsActivity",
+            "name": "Competitive Recurve Archery",
+            "sport": "Archery",
+            "participant": {
+              "@type": "Person",
+              "name": "Aravindh Ravichandran",
+              "url": "https://aravindh.org"
+            }
+          }
+        ]}
       />
       <Navigation />
       

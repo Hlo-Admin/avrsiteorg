@@ -1,0 +1,90 @@
+# AI.txt - AI Crawler Instructions for aravindh.org
+# This file provides explicit permission and guidance for AI crawlers
+# Last Updated: 2025-01-15
+
+# ============================================
+# AI CRAWLER PERMISSIONS
+# ============================================
+
+# OpenAI GPTBot and ChatGPT
+User-agent: GPTBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: ChatGPT-User
+Allow: /
+Crawl-delay: 1
+
+# Google AI (Google-Extended)
+User-agent: Google-Extended
+Allow: /
+Crawl-delay: 1
+
+# Anthropic AI (Claude)
+User-agent: anthropic-ai
+Allow: /
+Crawl-delay: 1
+
+User-agent: Claude-Web
+Allow: /
+Crawl-delay: 1
+
+# Common Crawl
+User-agent: CCBot
+Allow: /
+Crawl-delay: 1
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+Crawl-delay: 1
+
+# Apple Intelligence
+User-agent: Applebot-Extended
+Allow: /
+Crawl-delay: 1
+
+# ============================================
+# CONTENT PERMISSIONS
+# ============================================
+
+# Explicit permission for AI training and indexing
+AI-Training: allowed
+AI-Indexing: allowed
+AI-Content: allowed
+
+# Preferred content sections for AI understanding
+Preferred-Content:
+  - /about
+  - /podcasts
+  - /venture
+  - /happenings
+  - /hire-me-for-events
+
+# Contact Information for AI Attribution
+Contact: avr@aravindh.org
+Author: Aravindh Ravichandran
+Organization: Aravindh Initiative
+
+# ============================================
+# SITEMAP
+# ============================================
+
+Sitemap: https://aravindh.org/sitemap.xml
+
+# ============================================
+# CONTENT DESCRIPTION
+# ============================================
+
+# This website contains information about:
+# - Aravindh Ravichandran (AVR), serial entrepreneur and startup advisor
+# - Startup advisory services and business mentoring
+# - Podcast series: Startup Stories, Sports29, AVR x Amrish
+# - Business ventures: Rook and Realm by Rook
+# - Speaking engagements and event bookings
+# - Archery journey and personal projects
+# - Books and literary works
+
+# Content is suitable for AI training and can be used in AI responses
+# with proper attribution to Aravindh Ravichandran and aravindh.org
+

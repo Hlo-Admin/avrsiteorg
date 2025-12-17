@@ -125,6 +125,22 @@ export default {
             opacity: "1",
             transform: "translateY(0)"
           }
+        },
+        "gradient-shift": {
+          "0%, 100%": {
+            "background-position": "0% 50%"
+          },
+          "50%": {
+            "background-position": "100% 50%"
+          }
+        },
+        "glow-pulse": {
+          "0%, 100%": {
+            "filter": "drop-shadow(0 0 10px hsl(295 59% 23% / 0.3))"
+          },
+          "50%": {
+            "filter": "drop-shadow(0 0 20px hsl(295 59% 23% / 0.6))"
+          }
         }
       },
       animation: {
@@ -135,6 +151,8 @@ export default {
         "slide-up": "slide-up 0.7s ease-out",
         "glow": "glow 3s ease-in-out infinite",
         "shimmer": "shimmer 3s linear infinite",
+        "gradient-shift": "gradient-shift 5s ease infinite",
+        "glow-pulse": "glow-pulse 2s ease-in-out infinite",
       },
     },
   },

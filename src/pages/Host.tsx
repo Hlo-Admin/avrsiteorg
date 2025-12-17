@@ -38,9 +38,39 @@ const Host = () => {
     <div className="min-h-screen flex flex-col bg-gradient-to-b from-background to-background/95">
       <SEO 
         title="Meet the Host - Aravindh Ravichandran (AVR) | Sports29"
-        description="Learn about Aravindh Ravichandran (AVR), archer, entrepreneur, writer, and humanitarian. Host of Sports29 podcast series and founder of Rook."
-        keywords="Aravindh Ravichandran, AVR, Sports29 host, entrepreneur, archer, Rook founder, humanitarian"
-        canonicalUrl="https://sports29.lovable.app/host"
+        description="Learn about Aravindh Ravichandran (AVR), archer, entrepreneur, writer, and humanitarian. Host of Sports29 podcast series and founder of Rook. Visionary serial entrepreneur, tech product leader, and philanthropist championing transformative social causes."
+        keywords="Aravindh Ravichandran, AVR, Sports29 host, entrepreneur, archer, Rook founder, humanitarian, podcast host, startup founder, serial entrepreneur, tech entrepreneur, philanthropist, business leader, entrepreneur profile, startup advisor, SaaS founder, humanitarian work, entrepreneur USA"
+        canonicalUrl="https://aravindh.org/host"
+        ogImage="https://aravindh.org/assets/AVR_3.png"
+        geoLocation={{
+          region: "US",
+          placename: "United States"
+        }}
+        breadcrumbs={[
+          { name: "Home", url: "https://aravindh.org" },
+          { name: "Host", url: "https://aravindh.org/host" }
+        ]}
+        structuredData={[
+          {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Aravindh Ravichandran",
+            "alternateName": "AVR",
+            "description": "Archer, entrepreneur, writer, and humanitarian. Host of Sports29 podcast series and founder of Rook.",
+            "url": "https://aravindh.org",
+            "image": "https://aravindh.org/assets/AVR_3.png",
+            "jobTitle": "Founder & CEO",
+            "award": "Excellence in Finance Startups Award at FiNext Conference 2024",
+            "knowsAbout": [
+              "Entrepreneurship",
+              "Archery",
+              "Podcast Hosting",
+              "Philanthropy",
+              "SaaS Development",
+              "Business Strategy"
+            ]
+          }
+        ]}
       />
       <Navigation />
       

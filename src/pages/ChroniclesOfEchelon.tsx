@@ -10,8 +10,27 @@ const ChroniclesOfEchelon = () => {
     <div className="min-h-screen flex flex-col bg-[#fdf4ee]">
       <SEO 
         title="Chronicles of Echelon | Aravindh Ravichandran - Personal Journey"
-        description="Chronicles of Echelon - A commitment to self-improvement, pushing boundaries, and exploring new opportunities with full potential."
-        keywords="Chronicles of Echelon, Aravindh Ravichandran journey, self-improvement, personal growth"
+        description="Chronicles of Echelon - A commitment to self-improvement, pushing boundaries, and exploring new opportunities with full potential. Follow Aravindh Ravichandran's personal journey of growth, achievement, and continuous improvement."
+        keywords="Chronicles of Echelon, Aravindh Ravichandran journey, self-improvement, personal growth, personal development, growth mindset, self-improvement journey, personal transformation, achievement journey, continuous improvement, personal excellence, growth journey USA"
+        canonicalUrl="https://aravindh.org/chronicles-of-echelon"
+        ogImage="https://aravindh.org/assets/chronicles-icon.png"
+        geoLocation={{
+          region: "US",
+          placename: "United States"
+        }}
+        breadcrumbs={[
+          { name: "Home", url: "https://aravindh.org" },
+          { name: "Chronicles of Echelon", url: "https://aravindh.org/chronicles-of-echelon" }
+        ]}
+        structuredData={[
+          {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Chronicles of Echelon",
+            "description": "A commitment to self-improvement, pushing boundaries, and exploring new opportunities",
+            "url": "https://aravindh.org/chronicles-of-echelon"
+          }
+        ]}
       />
       <Navigation />
       

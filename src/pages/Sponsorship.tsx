@@ -10,9 +10,48 @@ const Sponsorship = () => {
     <div className="min-h-screen flex flex-col">
       <SEO 
         title="Sponsorship & Partnerships | Sports29 by AVR"
-        description="Partner with Sports29 by AVR and support athletic excellence. Explore sponsorship opportunities for archery and sports content with Aravindh Initiative."
-        keywords="Sports29 sponsorship, sports partnership, AVR archery sponsor, podcast sponsorship, athletic partnerships"
-        canonicalUrl="https://sports29.lovable.app/sponsorship"
+        description="Partner with Sports29 by AVR and support athletic excellence. Explore sponsorship opportunities for archery and sports content with Aravindh Initiative. Work with brands passionate about sport, innovation, and positive impact. Collaborate on world-class sporting and content experiences."
+        keywords="Sports29 sponsorship, sports partnership, AVR archery sponsor, podcast sponsorship, athletic partnerships, sports brand partnership, archery sponsorship, podcast advertising, sports marketing, athletic brand collaboration, sports content sponsorship, archery brand partnership, sports media partnership, athletic sponsorship opportunities USA"
+        canonicalUrl="https://aravindh.org/sponsorship"
+        ogImage="https://aravindh.org/assets/AVR_3.png"
+        geoLocation={{
+          region: "US",
+          placename: "United States"
+        }}
+        breadcrumbs={[
+          { name: "Home", url: "https://aravindh.org" },
+          { name: "Sponsorship", url: "https://aravindh.org/sponsorship" }
+        ]}
+        faq={[
+          {
+            question: "What sponsorship opportunities are available?",
+            answer: "We offer sponsorship opportunities for archery content, Sports29 podcast series, and sports-related media. We work with brands passionate about sport, innovation, and positive impact."
+          },
+          {
+            question: "How can I become a sponsor?",
+            answer: "Contact us via email at avr@aravindh.org or use the contact form on our Contact page. We look forward to discussing collaboration opportunities that align with our values and mission."
+          },
+          {
+            question: "What types of brands do you partner with?",
+            answer: "We partner with brands that share our passion for sport, innovation, and positive impact. This includes sports equipment brands, athletic apparel companies, tech companies, and organizations focused on athletic excellence and social good."
+          }
+        ]}
+        structuredData={[
+          {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Sponsorship and Partnership Opportunities",
+            "provider": {
+              "@type": "Organization",
+              "name": "Aravindh Initiative",
+              "url": "https://aravindh.org"
+            },
+            "areaServed": {
+              "@type": "Country",
+              "name": "United States"
+            }
+          }
+        ]}
       />
       <Navigation />
       

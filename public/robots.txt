@@ -1,7 +1,8 @@
 # robots.txt for aravindh.org
-# Generated: 2025-11-22
+# Optimized for AI Crawlers: OpenAI, Google AI, Anthropic AI
+# Generated: 2025-01-15
 
-# Allow all search engines to crawl the site
+# Allow all search engines and AI crawlers to crawl the site
 User-agent: *
 Allow: /
 
@@ -15,22 +16,88 @@ Allow: /
 # Sitemap location
 Sitemap: https://aravindh.org/sitemap.xml
 
-# Common search engine bots
+# ============================================
+# AI CRAWLERS - EXPLICITLY ALLOWED
+# ============================================
+
+# OpenAI GPTBot and ChatGPT-User
+User-agent: GPTBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: ChatGPT-User
+Allow: /
+Crawl-delay: 1
+
+# Google AI (Google-Extended)
+User-agent: Google-Extended
+Allow: /
+Crawl-delay: 1
+
+# Anthropic AI (Claude)
+User-agent: anthropic-ai
+Allow: /
+Crawl-delay: 1
+
+User-agent: Claude-Web
+Allow: /
+Crawl-delay: 1
+
+# Common Crawl (used by many AI companies)
+User-agent: CCBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: CCBot/2.0
+Allow: /
+Crawl-delay: 1
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+Crawl-delay: 1
+
+# Applebot (used by Apple Intelligence)
+User-agent: Applebot-Extended
+Allow: /
+Crawl-delay: 1
+
+# Bingbot (used by Microsoft Copilot)
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# ============================================
+# TRADITIONAL SEARCH ENGINES
+# ============================================
+
 User-agent: Googlebot
 Allow: /
 
-User-agent: Bingbot
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Video
 Allow: /
 
 User-agent: Slurp
 Allow: /
 
-# Block bad bots (optional - uncomment to block specific bots)
-# User-agent: BadBot
-# Disallow: /
+User-agent: DuckDuckBot
+Allow: /
 
-# Allow CSS, JS, and images for better SEO
-User-agent: Googlebot
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# ============================================
+# RESOURCE ACCESS FOR ALL BOTS
+# ============================================
+
+# Allow CSS, JS, and images for better SEO and AI understanding
+User-agent: *
 Allow: /*.css$
 Allow: /*.js$
 Allow: /*.png$
@@ -38,3 +105,10 @@ Allow: /*.jpg$
 Allow: /*.jpeg$
 Allow: /*.gif$
 Allow: /*.svg$
+Allow: /*.webp$
+Allow: /*.json$
+Allow: /*.xml$
+
+# Block bad bots (optional - uncomment to block specific bots)
+# User-agent: BadBot
+# Disallow: /

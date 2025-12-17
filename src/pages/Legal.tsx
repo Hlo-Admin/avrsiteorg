@@ -7,9 +7,40 @@ const Legal = () => {
     <div className="min-h-screen flex flex-col">
       <SEO 
         title="Legal Information & Copyright | Sports29 by AVR"
-        description="Legal information, copyright details, and rights inquiries for Sports29 by AVR podcast series. Contact us for licensing and permissions."
-        keywords="Sports29 legal, copyright, podcast rights, Aravindh Initiative"
-        canonicalUrl="https://sports29.lovable.app/legal"
+        description="Legal information, copyright details, and rights inquiries for Sports29 by AVR podcast series and Aravindh Initiative content. Contact us for licensing, permissions, and takedown requests. All content is protected by copyright under applicable law."
+        keywords="Sports29 legal, copyright, podcast rights, Aravindh Initiative, legal information, copyright notice, content rights, podcast copyright, intellectual property, content licensing, rights inquiries, takedown requests, copyright protection USA"
+        canonicalUrl="https://aravindh.org/legal"
+        geoLocation={{
+          region: "US",
+          placename: "United States"
+        }}
+        breadcrumbs={[
+          { name: "Home", url: "https://aravindh.org" },
+          { name: "Legal", url: "https://aravindh.org/legal" }
+        ]}
+        faq={[
+          {
+            question: "Who owns the copyright to Sports29 by AVR content?",
+            answer: "All podcast content, titles, descriptions, and associated assets are owned by Aravindh Initiative 2025. All content is original and protected by copyright under applicable law."
+          },
+          {
+            question: "Can I use Sports29 podcast content without permission?",
+            answer: "No unauthorized reproduction, distribution, or public airing of Sports29 by AVR podcasts is allowed. For licensing and permissions, please contact avr@aravindh.org."
+          },
+          {
+            question: "How do I request rights or report copyright infringement?",
+            answer: "For rights inquiries, licensing requests, or takedown requests, please contact us at avr@aravindh.org with details of your request."
+          }
+        ]}
+        structuredData={[
+          {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Legal Information",
+            "description": "Legal information, copyright details, and rights inquiries",
+            "url": "https://aravindh.org/legal"
+          }
+        ]}
       />
       <Navigation />
       
